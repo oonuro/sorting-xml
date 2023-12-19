@@ -1,7 +1,7 @@
 # sortingxml
 
-Python Libraris
+**Python Libraries**
 
-Tkinter
-xml.etree.ElementTree
-openpyxl
+1. Tkinter
+2. xml.etree.ElementTree
+3. openpyxl
