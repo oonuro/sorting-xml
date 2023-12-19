@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<xDeskConnectionFile Version="1.0">
+  <Project Name="projectname ControlDesk dspace">
+    <Experiment Name="projectname_Experiment_001">
+      <Layout Name="Layout Name">
+        <Instrument Type="Push Button" Name="Push Button_Overview" />
+        <Instrument Type="Frame" Name="XSG_Utils_Scale_DAC_16680/XSG_Utils_DAC_Frame">
+          <Connection Type="Main" Identifier="Platform()://Model Root/FPGA/IO/SCALE_DAC/Scale_v_DC_Link/Scale_v_DC_Link_in/&lt;Board_DAC_ID[-]&gt;" />
+        </Instrument>
+        <Instrument Type="Static Text" Name="XSG_Utils_Scale_DAC_16680/XSG_Utils_DAC_Description" />
+        <Instrument Type="Numeric Input" Name="XSG_Utils_Scale_DAC_16680/XSG_Utils_DAC_LimitUp">
+          <Connection Type="Main" Identifier="Platform()://Model Root/FPGA/IO/SCALE_DAC/Scale_v_DC_Link/Upper_Limit_Output_Voltage[V]/Value" />
+        </Instrument>
+        <Instrument Type="Numeric Input" Name="XSG_Utils_Scale_DAC_16680/XSG_Utils_DAC_LimitDown">
+          <Connection Type="Main" Identifier="Platform()://Model Root/FPGA/IO/SCALE_DAC/Scale_v_DC_Link/Lower_Limit_Output_Voltage[V]/Value" />
+        </Instrument>
+      </Layout>
+    </Experiment>
+  </Project>
+</xDeskConnectionFile>
