@@ -8,7 +8,9 @@
 
 Please check requirements.txt then install all library this command line;
 
-`pip install -r requirements. txt`
+```
+pip install -r requirements. txt
+```
 
 **GUI**
 
