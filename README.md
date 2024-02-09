@@ -2,6 +2,8 @@
 
 **Python Libraries**
 
+Please check requirements.txt
+
 1. Tkinter
 2. xml.etree.ElementTree
 3. openpyxl
