@@ -2,11 +2,14 @@
 
 **Python Libraries**
 
-Please check requirements.txt
-
 1. Tkinter
 2. xml.etree.ElementTree
 3. openpyxl
 
+Please check requirements.txt then install all library this command line;
 
-![image](https://github.com/oonuro/sortingxml/assets/27056115/981d73ff-971d-402f-863e-eda9695df2f6)
+`pip install -r requirements. txt`
+
+**GUI**
+
+![GUI Tkinter](https://github.com/oonuro/sortingxml/assets/27056115/981d73ff-971d-402f-863e-eda9695df2f6)
